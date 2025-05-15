@@ -39,8 +39,8 @@ header {
     gap: 45px;
 }
 
-main{
-    background-image: url(/assets/img/background\ 1.svg);
+main {
+    background-image: url(/assets/img/bg1.svg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -52,7 +52,7 @@ main{
 }
 
 
-.main-content1{
+.main-content1 {
     padding: 30px;
     width: 530px;
     padding-right: 50px;
@@ -62,11 +62,11 @@ main{
     margin-top: -50px;
 }
 
-.main-content1 h4{
+.main-content1 h4 {
     font-weight: 600;
 }
 
-.main-content1 h1{
+.main-content1 h1 {
     font-size: 52px;
     font-weight: 700;
     color: #B88E2F;
@@ -74,13 +74,13 @@ main{
     margin-top: -20px;
 }
 
-.main-content1 p{
+.main-content1 p {
     width: 480px;
     font-size: 16px;
     font-weight: 500;
 }
 
-.main-content1 button{
+.main-content1 button {
     width: 150px;
     height: 44px;
     background-color: #B88E2F;
@@ -90,3 +90,147 @@ main{
     color: white;
 }
 
+.inter1{
+    margin-top: 50px;
+}
+.inter1 h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.inter1 h4{
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    margin-top: -20px;
+}
+
+.cards1 img {
+    width: 280px;
+    height: 380px;
+}
+
+.cards1{
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.tc1{
+    display: flex;
+    justify-content: center;
+    gap: 245px;
+    margin-top: -20px;
+}
+
+.tc1 h3{
+    font-weight: 450;
+}
+
+.sec-card1 h1{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.sec-card2{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.sec-card2 .card{
+    background-color: #F4F5F7;
+    width: 250px;
+}
+    
+.sec-card2 .card img{
+    width: 250px;
+}
+
+.sec-card2 .card .text h1{
+    margin-top: -10px;
+    font-weight: 600;
+}
+
+.sec-card2 .card .text {
+    padding: 10px;
+}
+
+.sec-card2 .card .text h2{
+    color: #898989;
+    margin-top: -15px;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.sec-card2 .card .text h3{ 
+    margin-top: -10px;
+    font-size: 18px;
+    font-weight: 550;
+}
+
+.sec-card2 .card .text{
+    padding: 10px;
+}
+
+.sec-card3{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.sec-card3 .card{
+    background-color: #F4F5F7;
+    width: 250px;
+}
+
+.sec-card3 .card img{
+    width: 250px;
+}
+
+.sec-card3 .card .text h1{
+    margin-top: -10px;
+    font-weight: 600;
+}
+
+.sec-card3 .card .text {
+    padding: 10px;
+}
+
+.sec-card3 .card .text h2{
+    color: #898989;
+    margin-top: -15px;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.sec-card3 .card .text h3{ 
+    margin-top: -10px;
+    font-size: 18px;
+    font-weight: 550;
+}
+
+.sec-card3 .card .text{
+    padding: 10px;
+}
+
+.btn-sm #s-more{
+    width: 185px;
+    height: 48px;
+    color: #B88E2F;
+    background-color: white;
+    border: 1px solid #B88E2F;
+}
+
+.btn-sm{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
