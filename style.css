@@ -1,40 +1,42 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 * {
-  padding: 0;
-  box-sizing: border-box;
-  text-decoration: none;
-  font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
 }
 
 header {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  justify-content: space-between;
-  padding: 36px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    padding: 36px;
 }
 
 .nav {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 75px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  font-style: normal;
-  font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 75px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 14px;
 }
 
 .nav a {
-  color: black;
+    color: black;
 }
 
 .icons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
 }
 
 main {
@@ -52,7 +54,7 @@ main {
 .main-content1 {
     padding: 30px;
     width: 530px;
-    padding-right: 50px;
+    margin-right: 50px;
     height: 450px;
     background-color: #FFF3E3;
     font-style: normal;
@@ -87,15 +89,16 @@ main {
     color: white;
 }
 
-.inter1{
+.inter1 {
     margin-top: 50px;
 }
+
 .inter1 h1 {
     display: flex;
     justify-content: center;
 }
 
-.inter1 h4{
+.inter1 h4 {
     display: flex;
     justify-content: center;
     font-weight: 400;
@@ -107,32 +110,32 @@ main {
     height: 380px;
 }
 
-.cards1{
+.cards1 {
     justify-content: center;
     display: flex;
     gap: 20px;
     cursor: pointer;
 }
 
-.tc1{
+.tc1 {
     display: flex;
     justify-content: center;
     gap: 245px;
     margin-top: -20px;
 }
 
-.tc1 h3{
-    font-weight: 450;
+.tc1 h3 {
+    font-weight: 600;
 }
 
-.sec-card1 h1{
+.sec-card1 h1 {
     display: flex;
     justify-content: center;
     font-size: 35px;
     margin-top: 45px;
 }
 
-.sec-card2{
+.sec-card2 {
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -140,16 +143,16 @@ main {
     margin-right: 20px;
 }
 
-.sec-card2 .card{
+.sec-card2 .card {
     background-color: #F4F5F7;
     width: 250px;
 }
-    
-.sec-card2 .card img{
+
+.sec-card2 .card img {
     width: 250px;
 }
 
-.sec-card2 .card .text h1{
+.sec-card2 .card .text h1 {
     margin-top: -10px;
     font-weight: 600;
 }
@@ -158,24 +161,24 @@ main {
     padding: 10px;
 }
 
-.sec-card2 .card .text h2{
+.sec-card2 .card .text h2 {
     color: #898989;
     margin-top: -15px;
     font-weight: normal;
     font-size: 16px;
 }
 
-.sec-card2 .card .text h3{ 
+.sec-card2 .card .text h3 {
     margin-top: -10px;
     font-size: 18px;
     font-weight: 550;
 }
 
-.sec-card2 .card .text{
+.sec-card2 .card .text {
     padding: 10px;
 }
 
-.sec-card3{
+.sec-card3 {
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -184,16 +187,16 @@ main {
     margin-right: 20px;
 }
 
-.sec-card3 .card{
+.sec-card3 .card {
     background-color: #F4F5F7;
     width: 250px;
 }
 
-.sec-card3 .card img{
+.sec-card3 .card img {
     width: 250px;
 }
 
-.sec-card3 .card .text h1{
+.sec-card3 .card .text h1 {
     margin-top: -10px;
     font-weight: 600;
 }
@@ -202,24 +205,24 @@ main {
     padding: 10px;
 }
 
-.sec-card3 .card .text h2{
+.sec-card3 .card .text h2 {
     color: #898989;
     margin-top: -15px;
     font-weight: normal;
     font-size: 16px;
 }
 
-.sec-card3 .card .text h3{ 
+.sec-card3 .card .text h3 {
     margin-top: -10px;
     font-size: 18px;
     font-weight: 550;
 }
 
-.sec-card3 .card .text{
+.sec-card3 .card .text {
     padding: 10px;
 }
 
-.btn-sm #s-more{
+.btn-sm #s-more {
     width: 185px;
     height: 48px;
     color: #B88E2F;
@@ -227,61 +230,164 @@ main {
     border: 1px solid #B88E2F;
 }
 
-.btn-sm{
+.btn-sm {
     display: flex;
     justify-content: center;
     margin-top: 30px;
 }
 
 .section1 h1 {
-  text-align: center;
-  margin-bottom: -20px;
-  font-size: 30px;
+    text-align: center;
+    margin-bottom: -20px;
+    font-size: 30px;
 }
 
 .section1 h4 {
-  font-weight: 200;
-  text-align: center;
+    font-weight: 200;
+    text-align: center;
 }
 
 .image-coll {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
+
 .image-coll img {
-  width: 300px;
-  height: 380px;
+    width: 300px;
+    height: 380px;
 }
 
 .t-image {
-  display: flex;
-  justify-content: center;
-  gap: 268px;
-  margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 268px;
+    margin-bottom: 10px;
 }
 
 .section2 h1 {
-  display: flex;
-  justify-content: center;
-  font-size: 40px;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
 }
 
 .image-coll2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 
 .image-coll2 img {
-  width: 260px;
+    width: 260px;
 }
 
-.main2{
-  margin-top: 40px;
-  background-color: #FCF8F3;
-  width: 100%;
-  height: 540px; 
+.main2 {
+    display: flex;
+    justify-content: end;
+    margin-top: 40px;
+    background-color: #FCF8F3;
+    width: 100%;
+    height: 740px;
 }
 
+.main2 .imgC3 {
+    display: flex;
+    align-items: center;
+}
+
+.textsCtt {
+    margin-top: -40px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.imgC3 {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.textsCtt button {
+    background-color: #B88E2F;
+    border: none;
+    color: white;
+    width: 170px;
+    height: 50px;
+    font-weight: 700;
+}
+
+.textsCtt h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    width: 400px;
+    margin-bottom: -10px;
+}
+
+.textsCtt h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #616161;
+    width: 400px;
+}
+
+.inter2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+.inter2 h1 {
+    margin-top: -20px;
+}
+
+.inter2 h4 {
+    color: #616161;
+}
+
+.lastbg img {
+    margin-top: -45px;
+    width: 100%;
+}
+
+.line{
+    margin-top: 50px;
+    width: 100%;
+    border: 1.5px solid rgb(222, 222, 222);
+}
+.line2{
+    margin-top: 50px;
+    width: 90%;
+    border: 1.5px solid rgb(222, 222, 222);
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
+
+footer .footerContent .firstLine{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 40px;
+    margin-left: 80px;
+}
+footer .footerContent .firstLine h1{
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+footer .footerContent .firstLine h4{
+    width: 300px;
+    color: #9F9F9F;
+}
+footer .footerContent .firstLine h5{
+    margin-top: -24px;
+    color: #9F9F9F;
+}
